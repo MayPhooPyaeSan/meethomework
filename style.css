@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202026;
+}
+
+.container {
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+
+.usersDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.userDiv {
+    padding: 15px 0px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #3C4043;
+    color: aliceblue;
+    height: 150px;
+}
+
+.userDiv img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.userName {
+    color: white;
+    font-size: 16px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+}
+
+.icons {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    opacity: 0;
+    transition: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons:hover {
+    opacity: 0.8;
+}
+
+.iconDiv {
+    font-size: 18px;
+    opacity: 0.9;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.icon {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
